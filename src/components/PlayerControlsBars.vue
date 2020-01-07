@@ -37,9 +37,9 @@
         <v-icon color="blue-grey" v-else>shuffle</v-icon>
       </v-btn>
     </v-toolbar>
-    <v-toolbar flat height="40">
-      <v-progress-linear height="40" v-model="trackProgress"  @click="updateSeek($event)"></v-progress-linear> 
-    </v-toolbar>
+    <v-containter>
+      <v-progress-linear class="ma-0" height="40" v-model="trackProgress"  @click="updateSeek($event)"></v-progress-linear> 
+    </v-containter>
   </div>
 </template>
 
